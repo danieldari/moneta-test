@@ -8,8 +8,9 @@ use Illuminate\Support\Facades\Log;
 
 class PaymentController extends Controller
 {
-    public $Token ="1048|byQPKwIQDbCwNdaqdjsK3Kmq1RzLjSWsy0WJm9sd";
-    public $Secret_key ="o0Tg9CS3YzAa83Et0qp66XdUAppqumhR1A9NBdyP";
+    public $Token =env('MONETA_TOKEN');
+    public $Secret_key =env('MONETA_MAC');
+    public $Splite =env('MONETA_SPLIT');
 
     public function submit(Request $request)
     {
@@ -71,7 +72,7 @@ class PaymentController extends Controller
             "serviceType"=> '', // What are you paying for
             "serviceCategory"=>'', // category of service
             "json" => "true",
-            "use_split" => "" //i need this
+            "use_split" => $this->Splite, //i need this
             ];
 
 
