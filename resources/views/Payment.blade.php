@@ -45,6 +45,11 @@
 
     <center>
         <h1>Moneta Payment gateway test</h1>
+        <nav>
+    <a href="/">payment gateway</a>
+    <a href="/notify">notification </a>
+</nav>
+<br>
     </center>
 
 <div class="form-container">
