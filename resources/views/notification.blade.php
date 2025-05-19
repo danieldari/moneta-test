@@ -95,16 +95,17 @@
   </style>
 </head>
 <body>
-   <center>
+ <center>
         <h1>Moneta  Test</h1>
         <nav>
     <a href="/">payment gateway</a>
     <a href="/notify">notification </a>
     <a href="/utility">utility </a>
+    <a href="/bvn">bvn </a>
 </nav>
 
 <br>
-    </center>
+ </center>
 <div class="container">
   <h2>📣 Send a Notification</h2>
 

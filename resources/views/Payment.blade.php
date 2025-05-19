@@ -43,15 +43,17 @@
 </head>
 <body>
 
-    <center>
+ <center>
         <h1>Moneta  Test</h1>
         <nav>
     <a href="/">payment gateway</a>
     <a href="/notify">notification </a>
     <a href="/utility">utility </a>
+    <a href="/bvn">bvn </a>
 </nav>
-<br>
 
+<br>
+ </center>
 <div class="form-container">
     <h2>Payment Form</h2>
     <form action="{{ route('payment.submit') }}" method="POST">
